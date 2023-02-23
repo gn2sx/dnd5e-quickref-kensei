@@ -10,7 +10,61 @@ data_action = [
             "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
             "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
             "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers.",
+            "<i>Level 3: <b>Agile Parry.</i></b> If you make an unarmed strike as part your Attack action and are holding a kensei weapon, you can use it to defend yourself. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't incapacitated.</b>",
+            "<i>Level 5: <b>Stunning Strike.</i></b> When you hit another creature with a melee attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.</b> ",
+            "<i>Level 5: <b>Focused Aim.</i></b> When you miss with an attack roll, you can use up to 3 ki points to increase that attack roll by 2 for each of those spent ki points, potentially turning the miss into a hit.",
+            "<i>Level 6: <b>Deft Strike.</i></b> When you hit a target with a kensei weapon, you can spend 1 ki point to cause the weapon to deal extra damage to the target equal to your Martial Arts die. You can use this feature only once per turn."
+        ]
+    },
+    {
+        title: "Dash",
+        icon: "sprint",
+        subtitle: "Double movement speed",
+        description: "Gain extra movement for the current turn",
+        reference: "PHB, pg. 192.",
+        bullets: [
+            "The increase equals your speed, after applying any modifiers."
+        ]
+    },
+    {
+        title: "Disengage",
+        icon: "journey",
+        subtitle: "Prevent opportunity attacks",
+        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        reference: "PHB, pg. 192.",
+        bullets: [
+        ]
+    },
+    {
+        title: "Dodge",
+        icon: "aura",
+        subtitle: "Increase defenses",
+        description: "Focus entirely on avoiding attacks",
+        reference: "PHB, pg. 192.",
+        bullets: [
+            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
+            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+        ]
+    },
+    {
+        title: "Quickened Healing",
+        icon: "health-increase",
+        subtitle: "Heal yourself with Ki",
+        description: "At 4th level, you gain the ability to heal yourself with your ki. ",
+        reference: "Level 4 Monk feature, TCE, pg. 49.",
+        bullets: [
+            "Spend 2 ki points and roll a Martial Arts die. You regain hit points equal to the number rolled plus your proficiency bonus.",
+        ]
+    },
+    {
+        title: "Stillness of Mind",
+        icon: "meditation",
+        subtitle: "End mental status effects",
+        description: "At 7th level, you gain the ability to rid your mind of many forces that might influence it.",
+        reference: "Level 7 Monk feature, PHB, pg. 79.",
+        bullets: [
+            "Immediately end one effect on yourself that is causing you to be <i>Charmed</i> or <i>Frightened</i>."
         ]
     },
     {
@@ -50,36 +104,6 @@ data_action = [
             "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
             "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
             "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
-        ]
-    },
-    {
-        title: "Dash",
-        icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
-        reference: "PHB, pg. 192.",
-        bullets: [
-            "The increase equals your speed, after applying any modifiers."
-        ]
-    },
-    {
-        title: "Disengage",
-        icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
-        reference: "PHB, pg. 192.",
-        bullets: [
-        ]
-    },
-    {
-        title: "Dodge",
-        icon: "aura",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
-        reference: "PHB, pg. 192.",
-        bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
         ]
     },
     {

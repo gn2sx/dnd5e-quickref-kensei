@@ -10,7 +10,13 @@ data_movement = [
             "You can move through a nonhostile creature's space.",
             "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
             "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space.",
+            "<i>Level 2: <b>Unarmored Movement.</i></b> Your speed increases by 10 feet while you are not wearing armor or wearing a shield. This bonus increases when you reach certain monk levels.",
+            "At 6th level, the bonus improves to +15 ft.",
+            "At 10th level, the bonus improves to +20 ft.",
+            "At 14th level, the bonus improves to +25 ft.",
+            "At 18th level, the bonus improves to +30 ft.",
+            "<i>Level 9: <b>Improved Unarmored Movement.</b></i> Starting at 9th level, your Unarmored Movement also allows you to move along vertical surfaces and liquids without falling during the move."
         ]
     },
     {
@@ -20,7 +26,8 @@ data_movement = [
         description: "Movement cost: 10ft per 5ft climbed",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "May involve a Strength (Athletics) check if the climb is difficult",
+            "<i>Level 9: <b>Improved Unarmored Movement.</b></i> Starting at 9th level, your Unarmored Movement also allows you to move along vertical surfaces and liquids without falling during the move."
         ]
     },
     {
@@ -30,7 +37,8 @@ data_movement = [
         description: "Movement cost: 10ft per 5ft swum",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "May involve a Strength (Athletics) check if the swim is difficult",
+            "<i>Level 9: <b>Improved Unarmored Movement.</b></i> Starting at 9th level, your Unarmored Movement also allows you to move along vertical surfaces and liquids without falling during the move."
         ]
     },
     {

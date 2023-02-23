@@ -124,7 +124,8 @@ data_condition = [
         description: "You are poisoned",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "You have disadvantage on attack rolls and ability checks.",
+            "<i>Level 10: <b>Purity of Body.</i></b> Starting at 10th level, your mastery of ki flowing through you makes you immune to disease and poison."
         ]
     },
     {

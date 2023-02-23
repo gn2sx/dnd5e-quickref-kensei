@@ -3,6 +3,8 @@ dnd5e-quickref
 
 Quick reference sheet for D&amp;D 5e
 
+Modified from original sheet by crobi: https://github.com/crobi/dnd5e-quickref
+
 
 Icons
 ==============
