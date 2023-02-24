@@ -2,7 +2,7 @@ data_bonusaction = [
     {
         title: "Martial Arts",
         icon: "bo",
-        subtitle: "Make one or more additional attacks.",
+        subtitle: "Make one or more additional attacks",
         description: "Make additional strike(s) with superior technique.",
         reference: "Level 1 Monk feature, PHB, pg. 78.",
         bullets: [
@@ -16,7 +16,7 @@ data_bonusaction = [
     {
         title: "Step of the Wind",
         icon: "running-ninja",
-        subtitle: "Dash or Disengage, and jump farther.",
+        subtitle: "Dash or Disengage, and jump farther",
         description: "Your Ki grants you superior agility and reflexes.",
         reference: "Level 2 Monk feature, PHB, pg. 78.",
         bullets: [
@@ -27,7 +27,7 @@ data_bonusaction = [
     {
         title: "Patient Defense",
         icon: "slap",
-        subtitle: "Use ki to increase defenses.",
+        subtitle: "Use ki to increase defenses",
         description: "You can spend 1 ki point to use Dodge as a bonus action.",
         reference: "Level 2 Monk Feature, PHB, pg. 78.",
         bullets: [
@@ -36,12 +36,12 @@ data_bonusaction = [
     {
         title: "Sharpen the Blade",
         icon: "blade-fall",
-        subtitle: "Use ki to enhance your weapon.",
+        subtitle: "Use ki to enhance your weapon",
         description: "At 11th level, you gain the ability to augment your weapons further with your ki.",
         reference: "Level 11 Kensei Feature, XGE, pg. 35.",
         bullets: [
-            "You can expend up to 3 ki points to grant one kensei weapon you touch a bonus to attack and damage rolls when you attack with it, equal to the number of ki points you spent.",
-            "This bonus lasts for 1 minute, or until you use this feature again."
+            "You can expend up to 3 ki points to grant one kensei weapon you touch a bonus to attack and damage rolls you make with it, equal to the number of ki points you spent.",
+            "This bonus lasts for 1 minute (10 rounds of combat), or until you use this feature again."
         ]
     },
     {

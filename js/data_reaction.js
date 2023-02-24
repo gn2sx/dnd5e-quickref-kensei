@@ -26,7 +26,7 @@ data_reaction = [
     {
         title: "Deflect Missiles",
         icon: "divert",
-        subtitle: "You are hit with a ranged attack",
+        subtitle: "Deflect or catch a projectile",
         description: "You can use your reaction to deflect or catch the missile when you are hit by a ranged attack.",
         reference: "Level 3 Monk feature, PHB, pg. 78.",
         bullets: [
